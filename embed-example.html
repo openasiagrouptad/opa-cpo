@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embed test · Journey to ONE</title>
+<style>body{margin:0;padding:24px 16px;background:#eee;font-family:Arial,sans-serif}iframe{display:block;width:100%;max-width:1200px;margin:0 auto;border:0;background:#fff}</style>
+</head>
+<body>
+<iframe id="course" src="./" title="Journey to ONE – Session 01: Stop to Glue" style="height:100vh" allowfullscreen loading="lazy"></iframe>
+<script>
+addEventListener('message', function (e) {
+  var f = document.getElementById('course');
+  if (!e.data || e.source !== f.contentWindow) return;
+  if (e.data.type === 'course:height') f.style.height = e.data.height + 'px';
+  if (e.data.type === 'course:complete') console.log('Course completed:', e.data.course);
+});
+</script>
+</body>
+</html>
