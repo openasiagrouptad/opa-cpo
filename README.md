@@ -1,17 +1,17 @@
 # Journey to ONE · Session 01: Stop to Glue
 
-Interactive e-learning course built from `CPO_SS1.pptx` (Openasia brand). Single self-contained `index.html`: all images and fonts are embedded, with no external requests.
+Interactive e-learning course built from `CPO_SS1.pptx` (Openasia brand). Single self-contained `index.html`: all images and fonts are embedded. The only external request is the YouTube video on the closing page, which loads when the learner presses play.
 
 ## Structure (17 pages, ~30 min)
 
 | Module | Pages | Required activities |
 |---|---|---|
-| 00 Khởi động | Chào mừng · Hành trình hôm nay | Explore the 3 stops on the journey map |
+| 00 Khởi động | Chào mừng · Hành trình hôm nay | Click the 5 hotspots on the interactive journey map |
 | 01 Compact Team | Ba quả bóng · Team của bạn là quả bóng nào? | Flip 3 cards · self-reflection poll · quiz |
-| 02 Pit Stop | F1 · Pit Stop trong doanh nghiệp · Chu trình Tops & Flops · Thực hành · Kiểm tra | Pit-crew ordering game · Pit Stop / không phải sorting · explore the cycle · write own Tops/Flops/Actions (downloadable) · 3 quiz questions |
+| 02 Pit Stop | F1 · Pit Stop trong doanh nghiệp · Chu trình Tops & Flops · Thực hành · Kiểm tra | Pit-crew ordering game · Pit Stop / không phải sorting · drive one lap of the Pit Stop loop (5 stations in order) · write own Tops/Flops/Actions (downloadable as a branded Word file) · 3 quiz questions |
 | 03 Team Glue | Goal · Frame · Trust · Tình huống · Know your team | Open all 3 tabs · match 6 scenarios · guess then reveal team data |
-| 04 Team Glue Activation | One-page · 6 tuần 3S · Kiểm tra | Open both templates + quiz · open all 6 weeks · match 6 activities |
-| 05 Tổng kết | Năng lượng lan truyền · Hoàn thành | Personal commitment |
+| 04 Team Glue Activation | One-page · Hoạt động 3S thứ Hai · Kiểm tra | Open both templates · open all 5 activities (Colors of Us, Pass on the Moment, Glue Star, Finish the Lyrics, Who Am I?) · match 5 activities |
+| 05 Tổng kết | Năng lượng lan truyền (Norway video) · Hoàn thành | Personal commitment |
 
 **Gating:** the *Tiếp theo* button and later menu items stay locked until every activity on the current page is done. Quizzes give instant feedback and unlimited retries; no score is recorded. Progress is saved in the learner's browser (`localStorage`).
 
